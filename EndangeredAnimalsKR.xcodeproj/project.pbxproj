@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81C9C22B27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C22A27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift */; };
+		81C9C22D27B9F9CB00F71752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C22C27B9F9CB00F71752 /* ContentView.swift */; };
+		81C9C22F27B9F9CD00F71752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C22E27B9F9CD00F71752 /* Assets.xcassets */; };
+		81C9C23227B9F9CD00F71752 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C23127B9F9CD00F71752 /* Preview Assets.xcassets */; };
+		81C9C23C27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C23B27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift */; };
+		81C9C24627B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C24527B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift */; };
+		81C9C24827B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C24727B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C9C23827B9F9CD00F71752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C9C21F27B9F9CB00F71752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C9C22627B9F9CB00F71752;
+			remoteInfo = EndangeredAnimalsKR;
+		};
+		81C9C24227B9F9CD00F71752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C9C21F27B9F9CB00F71752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C9C22627B9F9CB00F71752;
+			remoteInfo = EndangeredAnimalsKR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81C9C22727B9F9CB00F71752 /* EndangeredAnimalsKR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndangeredAnimalsKR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C22A27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRApp.swift; sourceTree = "<group>"; };
+		81C9C22C27B9F9CB00F71752 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81C9C22E27B9F9CD00F71752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C9C23127B9F9CD00F71752 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81C9C23727B9F9CD00F71752 /* EndangeredAnimalsKRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndangeredAnimalsKRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C23B27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRTests.swift; sourceTree = "<group>"; };
+		81C9C24127B9F9CD00F71752 /* EndangeredAnimalsKRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndangeredAnimalsKRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C24527B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRUITests.swift; sourceTree = "<group>"; };
+		81C9C24727B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C9C22427B9F9CB00F71752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23427B9F9CD00F71752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23E27B9F9CD00F71752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C9C21E27B9F9CB00F71752 = {
+			isa = PBXGroup;
+			children = (
+				81C9C22927B9F9CB00F71752 /* EndangeredAnimalsKR */,
+				81C9C23A27B9F9CD00F71752 /* EndangeredAnimalsKRTests */,
+				81C9C24427B9F9CD00F71752 /* EndangeredAnimalsKRUITests */,
+				81C9C22827B9F9CB00F71752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81C9C22827B9F9CB00F71752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C22727B9F9CB00F71752 /* EndangeredAnimalsKR.app */,
+				81C9C23727B9F9CD00F71752 /* EndangeredAnimalsKRTests.xctest */,
+				81C9C24127B9F9CD00F71752 /* EndangeredAnimalsKRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C9C22927B9F9CB00F71752 /* EndangeredAnimalsKR */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C22A27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift */,
+				81C9C22C27B9F9CB00F71752 /* ContentView.swift */,
+				81C9C22E27B9F9CD00F71752 /* Assets.xcassets */,
+				81C9C23027B9F9CD00F71752 /* Preview Content */,
+			);
+			path = EndangeredAnimalsKR;
+			sourceTree = "<group>";
+		};
+		81C9C23027B9F9CD00F71752 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C23127B9F9CD00F71752 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81C9C23A27B9F9CD00F71752 /* EndangeredAnimalsKRTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C23B27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift */,
+			);
+			path = EndangeredAnimalsKRTests;
+			sourceTree = "<group>";
+		};
+		81C9C24427B9F9CD00F71752 /* EndangeredAnimalsKRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C24527B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift */,
+				81C9C24727B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift */,
+			);
+			path = EndangeredAnimalsKRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C9C22627B9F9CB00F71752 /* EndangeredAnimalsKR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C9C24B27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKR" */;
+			buildPhases = (
+				81C9C22327B9F9CB00F71752 /* Sources */,
+				81C9C22427B9F9CB00F71752 /* Frameworks */,
+				81C9C22527B9F9CB00F71752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EndangeredAnimalsKR;
+			productName = EndangeredAnimalsKR;
+			productReference = 81C9C22727B9F9CB00F71752 /* EndangeredAnimalsKR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C9C23627B9F9CD00F71752 /* EndangeredAnimalsKRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C9C24E27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKRTests" */;
+			buildPhases = (
+				81C9C23327B9F9CD00F71752 /* Sources */,
+				81C9C23427B9F9CD00F71752 /* Frameworks */,
+				81C9C23527B9F9CD00F71752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C9C23927B9F9CD00F71752 /* PBXTargetDependency */,
+			);
+			name = EndangeredAnimalsKRTests;
+			productName = EndangeredAnimalsKRTests;
+			productReference = 81C9C23727B9F9CD00F71752 /* EndangeredAnimalsKRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C9C24027B9F9CD00F71752 /* EndangeredAnimalsKRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C9C25127B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKRUITests" */;
+			buildPhases = (
+				81C9C23D27B9F9CD00F71752 /* Sources */,
+				81C9C23E27B9F9CD00F71752 /* Frameworks */,
+				81C9C23F27B9F9CD00F71752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C9C24327B9F9CD00F71752 /* PBXTargetDependency */,
+			);
+			name = EndangeredAnimalsKRUITests;
+			productName = EndangeredAnimalsKRUITests;
+			productReference = 81C9C24127B9F9CD00F71752 /* EndangeredAnimalsKRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C9C21F27B9F9CB00F71752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					81C9C22627B9F9CB00F71752 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					81C9C23627B9F9CD00F71752 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 81C9C22627B9F9CB00F71752;
+					};
+					81C9C24027B9F9CD00F71752 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 81C9C22627B9F9CB00F71752;
+					};
+				};
+			};
+			buildConfigurationList = 81C9C22227B9F9CB00F71752 /* Build configuration list for PBXProject "EndangeredAnimalsKR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C9C21E27B9F9CB00F71752;
+			productRefGroup = 81C9C22827B9F9CB00F71752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C9C22627B9F9CB00F71752 /* EndangeredAnimalsKR */,
+				81C9C23627B9F9CD00F71752 /* EndangeredAnimalsKRTests */,
+				81C9C24027B9F9CD00F71752 /* EndangeredAnimalsKRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C9C22527B9F9CB00F71752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C9C23227B9F9CD00F71752 /* Preview Assets.xcassets in Resources */,
+				81C9C22F27B9F9CD00F71752 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23527B9F9CD00F71752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23F27B9F9CD00F71752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C9C22327B9F9CB00F71752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C9C22D27B9F9CB00F71752 /* ContentView.swift in Sources */,
+				81C9C22B27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23327B9F9CD00F71752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C9C23C27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23D27B9F9CD00F71752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C9C24827B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift in Sources */,
+				81C9C24627B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C9C23927B9F9CD00F71752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C9C22627B9F9CB00F71752 /* EndangeredAnimalsKR */;
+			targetProxy = 81C9C23827B9F9CD00F71752 /* PBXContainerItemProxy */;
+		};
+		81C9C24327B9F9CD00F71752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C9C22627B9F9CB00F71752 /* EndangeredAnimalsKR */;
+			targetProxy = 81C9C24227B9F9CD00F71752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81C9C24927B9F9CD00F71752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81C9C24A27B9F9CD00F71752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C9C24C27B9F9CD00F71752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EndangeredAnimalsKR/Preview Content\"";
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C9C24D27B9F9CD00F71752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EndangeredAnimalsKR/Preview Content\"";
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81C9C24F27B9F9CD00F71752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EndangeredAnimalsKR.app/EndangeredAnimalsKR";
+			};
+			name = Debug;
+		};
+		81C9C25027B9F9CD00F71752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EndangeredAnimalsKR.app/EndangeredAnimalsKR";
+			};
+			name = Release;
+		};
+		81C9C25227B9F9CD00F71752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EndangeredAnimalsKR;
+			};
+			name = Debug;
+		};
+		81C9C25327B9F9CD00F71752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EndangeredAnimalsKR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C9C22227B9F9CB00F71752 /* Build configuration list for PBXProject "EndangeredAnimalsKR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9C24927B9F9CD00F71752 /* Debug */,
+				81C9C24A27B9F9CD00F71752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C9C24B27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9C24C27B9F9CD00F71752 /* Debug */,
+				81C9C24D27B9F9CD00F71752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C9C24E27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9C24F27B9F9CD00F71752 /* Debug */,
+				81C9C25027B9F9CD00F71752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C9C25127B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9C25227B9F9CD00F71752 /* Debug */,
+				81C9C25327B9F9CD00F71752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C9C21F27B9F9CB00F71752 /* Project object */;
+}
