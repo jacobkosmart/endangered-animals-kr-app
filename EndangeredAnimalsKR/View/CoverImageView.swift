@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-// MARK: -  PROPERTY
-
-let coverImages: [CoverImage] = Bundle.main.decode("covers.json")
-
-// MARK: -  BODY
 struct CoverImageView: View {
+	// MARK: -  PROPERTY
+	
+	@ObservedObject var coverImageViewModel: CoverImageViewModel = CoverImageViewModel()
+	
+	// MARK: -  BODY
 	var body: some View {
 		TabView {
-			ForEach(coverImages) { item in
+			ForEach(coverImageViewModel.coverImages) { item in
 				Image(item.name)
 					.resizable()
 				.scaledToFill()
@@ -23,8 +23,6 @@ struct CoverImageView: View {
 		} //: TAB
 		.tabViewStyle(.page)
 	}
-	
-	// MARK: -  FUNCTION
 }
 
 // MARK: -  PREVIEW
