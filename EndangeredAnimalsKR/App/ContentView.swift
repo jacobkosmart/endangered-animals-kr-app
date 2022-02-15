@@ -19,8 +19,10 @@ struct ContentView: View {
 					.listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
 				
 				ForEach(animalViewModel.animals) { animal in
+					NavigationLink(destination: AnimalDetailView(animal: animal)) {
 						AnimalListItemView(animal: animal)
-						.listRowInsets(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 0))
+							.listRowInsets(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 0))
+					} //: Link
 				}
 			} //: LIST
 			.navigationBarTitle("한국 멸종위기 동물들", displayMode: .large)
