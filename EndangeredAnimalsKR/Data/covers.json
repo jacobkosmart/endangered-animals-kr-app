@@ -1,30 +1,34 @@
 [
   {
     "id" : 1,
-    "name" : "cover-lion"
+    "name" : "cover-tiger"
   },
   {
     "id" : 2,
-    "name" : "cover-elephant"
+    "name" : "cover-fox"
   },
   {
     "id" : 3,
-    "name" : "cover-cheetah"
+    "name" : "cover-otter"
   },
   {
     "id" : 4,
-    "name" : "cover-zebra"
+    "name" : "cover-bear"
   },
   {
     "id" : 5,
-    "name" : "cover-buffalo"
+    "name" : "cover-caudatus"
   },
   {
     "id" : 6,
-    "name" : "cover-giraffe"
+    "name" : "cover-bengalensis"
   },
   {
     "id" : 7,
-    "name" : "cover-gorilla"
-  }
+    "name" : "cover-flavigula"
+  },
+	{
+		"id" : 8,
+		"name" : "cover-Lynx"
+	}
 ]
