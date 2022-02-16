@@ -1,0 +1,58 @@
+[
+  {
+    "id": "tiger",
+    "image": "map-tiger",
+    "name": "백두산",
+    "latitude": 42.004628876206624,
+    "longitude": 128.0327087731552
+  },
+  {
+    "id": "fox",
+    "image": "map-fox",
+    "name": "소백산",
+    "latitude": 36.95062004683923,
+    "longitude": 128.48323853504272
+  },
+  {
+    "id": "otter",
+    "image": "map-otter",
+    "name": "태백",
+    "latitude": 37.2023094277005,
+    "longitude": 128.9599349151048
+  },
+  {
+    "id": "bear",
+    "image": "map-bear",
+    "name": "지리산",
+    "latitude": 35.3222118936577,
+    "longitude": 127.63120336215125
+  },
+  {
+    "id": "caudatus",
+    "image": "map-caudatus",
+    "name": "화천",
+    "latitude": 38.1522282145914,
+    "longitude": 127.61027266026997
+  },
+  {
+    "id": "bengalensis",
+    "image": "map-bengalensis",
+    "name": "덕유산",
+    "latitude": 35.85404875141144,
+    "longitude": 127.73103924565206
+  },
+  {
+    "id": "flavigula",
+    "image": "map-flavigula",
+    "name": "오대산",
+    "latitude": 37.73057697935932,
+    "longitude": 128.56508484006056
+  },
+  {
+    "id": "Lynx",
+    "image": "map-lynx",
+    "name": "백두산동쪽",
+    "latitude": 42.12260445514902,
+    "longitude": 129.12973269076443
+  }
+]
