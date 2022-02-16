@@ -9,8 +9,15 @@ import SwiftUI
 
 struct GalleryView: View {
 	var body: some View {
-		Text("Gallery")
-	}
+		NavigationView {
+			ScrollView(.vertical, showsIndicators: false) {
+				
+			} //: SCROLL
+			.frame(maxWidth: .infinity, maxHeight: .infinity)
+			.background(MotionAnimationView())
+			.navigationBarTitle("사진", displayMode: .inline)
+		}
+	} //: NAVIGATION
 }
 
 struct GalleryView_Previews: PreviewProvider {
