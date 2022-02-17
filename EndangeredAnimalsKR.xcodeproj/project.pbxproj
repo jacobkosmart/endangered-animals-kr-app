@@ -19,6 +19,7 @@
 		8157F24827BCD05E005395EB /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F24727BCD05E005395EB /* MapAnnotationView.swift */; };
 		8157F24A27BCD96C005395EB /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F24927BCD96C005395EB /* MotionAnimationView.swift */; };
 		8157F24C27BCDBA4005395EB /* MotionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F24B27BCDBA4005395EB /* MotionViewModel.swift */; };
+		8180141427BDE94800E1E457 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8180141327BDE94800E1E457 /* AnimalGridItemView.swift */; };
 		819408B027BBABB5004D076D /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819408AF27BBABB4004D076D /* InsetFactView.swift */; };
 		81AB2B2127BC91B300D3A975 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB2B2027BC91B300D3A975 /* VideoModel.swift */; };
 		81AB2B2327BC923300D3A975 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB2B2227BC923300D3A975 /* VideoListItem.swift */; };
@@ -86,6 +87,7 @@
 		8157F24727BCD05E005395EB /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		8157F24927BCD96C005395EB /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		8157F24B27BCDBA4005395EB /* MotionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionViewModel.swift; sourceTree = "<group>"; };
+		8180141327BDE94800E1E457 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		819408AF27BBABB4004D076D /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		81AB2B2027BC91B300D3A975 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		81AB2B2227BC923300D3A975 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				8157F23527BC9D9F005395EB /* VideoPlayerView.swift */,
 				8157F24727BCD05E005395EB /* MapAnnotationView.swift */,
 				8157F24927BCD96C005395EB /* MotionAnimationView.swift */,
+				8180141327BDE94800E1E457 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				81DC3E7727BB994D003648DA /* InsetGalleryView.swift in Sources */,
 				8157F24C27BCDBA4005395EB /* MotionViewModel.swift in Sources */,
 				8157F23627BC9D9F005395EB /* VideoPlayerView.swift in Sources */,
+				8180141427BDE94800E1E457 /* AnimalGridItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
