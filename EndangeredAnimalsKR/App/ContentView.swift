@@ -14,11 +14,12 @@ struct ContentView: View {
 	// MARK: -  BODY
 	var body: some View {
 		NavigationView {
+			// MARK: -  Initial List View
 			Group {
 				if !animalViewModel.isGridViewActive {
 					List {
 						CoverImageView()
-							.frame(height: 300)
+							.frame(height: UIScreen.main.bounds.size.height * 0.4)
 							.listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
 						
 						ForEach(animalViewModel.animals) { animal in
@@ -30,6 +31,7 @@ struct ContentView: View {
 						CreditsView()
 							.modifier(CenterModifier())
 					} //: LIST
+					// MARK: -  Grid View
 				} else {
 					ScrollView(.vertical, showsIndicators: false) {
 						LazyVGrid(columns: animalViewModel.flexGridLayout, alignment: .center, spacing: 10) {

@@ -27,13 +27,13 @@ struct SettingsRowView: View {
 				// Conditional row
 				// 1. name, content 만 있는 경우
 				if (content != nil) {
-					Text(content!).fontWeight(.bold)
+					Text(content!).fontWeight(.bold).foregroundColor(.primary)
 					// 2. linkLabel, linkDestination 이 있는경우
 				} else if (linkLabel != nil && linkDestination != nil) {
 					Link(
 						destination: URL(string: "https://\(linkDestination!)")!, label: {
 							Text(linkLabel!).fontWeight(.bold)
-								.foregroundColor(.primary)
+								.foregroundColor(.accentColor)
 						})
 					Image(systemName:"arrow.up.right.square").foregroundColor(.accentColor)
 					// 3. 아무것도 해당 안될때는 EmptyView() 나타냄

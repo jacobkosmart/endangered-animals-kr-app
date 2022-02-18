@@ -29,11 +29,9 @@ struct AppInfoView: View {
 						) {
 							// resualble conditional settings row
 							SettingsRowView(name: "Developer", content: "Jacob Taehun Ko")
-							SettingsRowView(name: "Compatibility", content: "iOS15.3")
+							SettingsRowView(name: "Compatibility", content: "iOS15.2")
 							SettingsRowView(name: "Website", linkLabel: "Jacob's DevLog", linkDestination: "jacobko.info")
 							SettingsRowView(name: "Github", linkLabel: "Go to Repository", linkDestination: "github.com/jacobkosmart/endangered-animals-kr-app")
-							SettingsRowView(name: "Icons", linkLabel: "ICONS8", linkDestination: "jacobko.info")
-
 							SettingsRowView(name: "Framework", content: "SwiftUI")
 							SettingsRowView(name: "Version", content: "1.0.0")
 						} //: GROUP
@@ -56,15 +54,16 @@ struct AppInfoView: View {
 							
 							// App 아이콘
 							HStack(alignment: .center, spacing: 10) {
-								Image("iconRaw")
+								Image("icon")
 									.resizable()
 									.scaledToFit()
 									.frame(height: 60)
 								Spacer()
 								
-								Link(destination: URL(string: "https://icons8.com/icon/CT0ZOlWui4vA/tiger")!) {
-									Text("Tiger by Icon8")
+								Link(destination: URL(string: "https://www.freepik.com/vectors/animal-face")!) {
+									Text("Animal face vector created by grmarc - www.freepik.com")
 										.font(.footnote)
+									Image(systemName:"arrow.up.right.square").foregroundColor(.accentColor).font(.footnote)
 								}
 							} //: HSTACK
 														
@@ -75,12 +74,13 @@ struct AppInfoView: View {
 								Image("intro")
 									.resizable()
 									.scaledToFit()
-									.frame(height: 60)
+									.frame(height: 50)
 								Spacer()
 								
 								Link(destination: URL(string: "https://icons8.com/illustrations/author/5c07e68d82bcbc0092519bb")!) {
 									Text("Illustration by Icons 8 from Ounch!")
 										.font(.footnote)
+									Image(systemName:"arrow.up.right.square").foregroundColor(.accentColor).font(.footnote)
 								}
 							} //: HSTACK
 							
