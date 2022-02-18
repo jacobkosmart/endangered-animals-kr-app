@@ -26,8 +26,7 @@ struct AnimalListItemView: View {
 			
 			VStack (alignment: .leading, spacing: 8) {
 				Text(animal.name)
-					.font(.title2)
-					.fontWeight(.heavy)
+					.modifier(CustomFonts(fontName: .bold, size: 20))
 					.foregroundColor(.accentColor)
 				
 				Text(animal.headline)

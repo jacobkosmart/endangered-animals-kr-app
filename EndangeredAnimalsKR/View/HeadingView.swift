@@ -22,8 +22,7 @@ struct HeadingView: View {
 				.imageScale(.large)
 			
 			Text(headingText)
-				.font(.title3)
-				.fontWeight(.bold)
+				.modifier(CustomFonts(fontName: .bold, size: 20))
 			
 		} //: HSTACK
 		.padding(.vertical)

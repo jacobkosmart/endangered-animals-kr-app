@@ -14,6 +14,7 @@ class AnimalViewModel: ObservableObject {
 	@Published var flexGridLayout: [GridItem] = [GridItem(.flexible())]
 	@Published var gridColumn: Int = 1
 	@Published var toolbarIcon: String = "square.grid.2x2"
+	@Published var showAppInfo: Bool = false
 	
 	let haptics = UIImpactFeedbackGenerator(style: .medium)
 	

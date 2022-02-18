@@ -22,8 +22,7 @@ struct AnimalDetailView: View {
 					.scaledToFit()
 				// TITLE
 				Text(animal.name)
-					.font(.largeTitle)
-					.fontWeight(.heavy)
+					.modifier(CustomFonts(fontName: .bold, size: 35))
 					.multilineTextAlignment(.center)
 					.padding(.vertical, 8)
 					.foregroundColor(.primary)
@@ -34,10 +33,10 @@ struct AnimalDetailView: View {
 					)
 				// HEADLINE
 				Text(animal.headline)
-					.font(.headline)
+					.modifier(CustomFonts(fontName: .medium, size: 18))
 					.multilineTextAlignment(.leading)
 					.foregroundColor(.accentColor)
-					.padding(.horizontal)
+					.padding()
 				// GALLERY
 				Group {
 					HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "\(animal.name) 사진들")

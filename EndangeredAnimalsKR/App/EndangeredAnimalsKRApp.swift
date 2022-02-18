@@ -11,7 +11,7 @@ import SwiftUI
 struct EndangeredAnimalsKRApp: App {
 	var body: some Scene {
 		WindowGroup {
-			MainView()
+			SplashScreen()
 		}
 	}
 }

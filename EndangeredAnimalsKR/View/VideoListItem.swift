@@ -31,8 +31,7 @@ struct VideoListItem: View {
 			
 			VStack(alignment: .leading, spacing: 10) {
 				Text(video.name)
-					.font(.title2)
-					.fontWeight(.heavy)
+					.modifier(CustomFonts(fontName: .bold, size: 20))
 					.foregroundColor(.accentColor)
 				
 				Text(video.headline)

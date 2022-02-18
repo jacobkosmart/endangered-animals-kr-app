@@ -69,10 +69,6 @@
 
 #### 👉 [9.Develop a complex grid layout system with Toolbar buttons]()
 
-#### 👉 [10.Create a new iMessage extension(iOS Sticker pack)]()
-
-#### 👉 [11.Transfer the iPad app to desktop Mac app with Mac catalyst technology]()
-
 <!-- #### 👉 -->
 
 <!-- > Describing check point in details in Jacob's DevLog - https://jacobko.info/firebaseios/ios-firebase-03/ -->

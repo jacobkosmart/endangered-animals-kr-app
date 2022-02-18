@@ -27,6 +27,8 @@ struct ContentView: View {
 									.listRowInsets(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 0))
 							} //: Link
 						} //: LOOP
+						CreditsView()
+							.modifier(CenterModifier())
 					} //: LIST
 				} else {
 					ScrollView(.vertical, showsIndicators: false) {
@@ -39,6 +41,7 @@ struct ContentView: View {
 						} //: GRID
 						.padding(10)
 						.animation(.easeIn)
+						CreditsView()
 					} //: SCROLL
 				} //: CONDITION
 			} //: GROUP
@@ -46,7 +49,7 @@ struct ContentView: View {
 			.listStyle(.plain)
 			.toolbar {
 				ToolbarItem(placement: .navigationBarTrailing) {
-					HStack (spacing: 16) {
+					HStack (spacing: 10) {
 						// List
 						Button {
 							print("List View is activated")
@@ -69,6 +72,19 @@ struct ContentView: View {
 								.font(.title3)
 								.foregroundColor(animalViewModel.isGridViewActive ? .accentColor : .primary)
 						}
+						
+						// App Information
+						Button {
+							animalViewModel.showAppInfo.toggle()
+						} label: {
+							Image(systemName: "info.circle")
+								.font(.title3)
+								.foregroundColor(.accentColor)
+						}
+						.sheet(isPresented: $animalViewModel.showAppInfo) {
+							AppInfoView()
+						}
+						
 					} //: HSTACK
 				}  //: BUTTON
 			}  //: TOOLBAR
