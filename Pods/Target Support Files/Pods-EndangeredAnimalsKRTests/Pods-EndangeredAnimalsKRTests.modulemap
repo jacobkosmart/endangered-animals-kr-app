@@ -1,0 +1,6 @@
+framework module Pods_EndangeredAnimalsKRTests {
+  umbrella header "Pods-EndangeredAnimalsKRTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

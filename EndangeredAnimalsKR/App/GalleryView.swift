@@ -34,6 +34,7 @@ struct GalleryView: View {
 		NavigationView {
 			ScrollView(.vertical, showsIndicators: false) {
 				VStack (alignment: .center, spacing: 30){
+					BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
 					// MARK: -  IMAGE
 					Image(selectedAnimal)
 						.resizable()
@@ -65,6 +66,7 @@ struct GalleryView: View {
 					.onAppear {
 						gridSwitch()
 					}
+					BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
 				} //: VSTACK
 				.padding(.horizontal, 10)
 				.padding(.vertical, 50)

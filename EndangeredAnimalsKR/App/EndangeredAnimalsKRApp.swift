@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct EndangeredAnimalsKRApp: App {
+
 	var body: some Scene {
 		WindowGroup {
 			SplashScreen()

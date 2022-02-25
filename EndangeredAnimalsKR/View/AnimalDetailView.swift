@@ -16,6 +16,9 @@ struct AnimalDetailView: View {
 	var body: some View {
 		ScrollView(.vertical, showsIndicators: false) {
 			VStack(alignment: .center, spacing: 20) {
+				// AD
+				BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
+				
 				// HERO IMAGE
 				Image(animal.image)
 					.resizable()
@@ -33,8 +36,8 @@ struct AnimalDetailView: View {
 					)
 				// HEADLINE
 				Text(animal.headline)
-					.modifier(CustomFonts(fontName: .medium, size: 18))
-					.multilineTextAlignment(.leading)
+					.font(.title3)
+					.multilineTextAlignment(.center)
 					.foregroundColor(.accentColor)
 					.padding()
 				// GALLERY
@@ -49,10 +52,8 @@ struct AnimalDetailView: View {
 				Group {
 					HeadingView(headingImage: "info.circle", headingText: "\(animal.name) 자세한 정보")
 					
-					Text(animal.description)
-						.multilineTextAlignment(.leading)
-						.layoutPriority(1)
-						.padding(.horizontal)
+					LabelAlignment(text: animal.description, textAlignmentStyle: .justified, width: UIScreen.main.bounds.width - 30)
+					
 				}
 				
 				// FACTS
@@ -75,8 +76,13 @@ struct AnimalDetailView: View {
 					HeadingView(headingImage: "books.vertical", headingText: "참고 자료")
 					
 					ExternalWebLink(animal: animal)
+					
+					BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
 				}
 				.padding(.horizontal)
+				
+				
+				// AD
 				
 				// COPYRIGHT
 				Text(animal.copyright)
@@ -84,6 +90,7 @@ struct AnimalDetailView: View {
 					.multilineTextAlignment(.leading)
 					.foregroundColor(.secondary)
 					.padding()
+				
 			} //: VSTACK
 			.navigationBarTitle("\(animal.name) 자세히 알아보기", displayMode: .inline)
 		} //: SCROLL
@@ -100,3 +107,33 @@ struct AnimalDetailView_Previews: PreviewProvider {
 		}
 	}
 }
+
+
+// MARK: -  LabelAlignment (justify 적용)
+
+struct LabelAlignment: UIViewRepresentable {
+	var text: String
+	var textAlignmentStyle : TextAlignmentStyle
+	var width: CGFloat
+
+	func makeUIView(context: Context) -> UILabel {
+			let label = UILabel()
+			label.textAlignment = NSTextAlignment(rawValue: textAlignmentStyle.rawValue)!
+			label.numberOfLines = 0
+			label.preferredMaxLayoutWidth = width
+			label.setContentHuggingPriority(.required, for: .horizontal)
+			label.setContentHuggingPriority(.required, for: .vertical)
+
+			return label
+	}
+
+	func updateUIView(_ uiView: UILabel, context: Context) {
+			uiView.text = text
+	}
+}
+
+enum TextAlignmentStyle : Int{
+	 case left = 0 ,center = 1 , right = 2 ,justified = 3 ,natural = 4
+}
+
+

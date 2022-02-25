@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20635F380AB6FBAB44BEEEF1 /* Pods_EndangeredAnimalsKR_EndangeredAnimalsKRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD738B28A23257FD4EA70BEA /* Pods_EndangeredAnimalsKR_EndangeredAnimalsKRUITests.framework */; };
+		5F37F9A33FC7DFD88DC6FCA8 /* Pods_EndangeredAnimalsKRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C0BC5823B15BB4DA650E51 /* Pods_EndangeredAnimalsKRTests.framework */; };
+		606CE4BC3C16A78BC8B2CF9B /* Pods_EndangeredAnimalsKR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF7F17A94D431485BDA15E9 /* Pods_EndangeredAnimalsKR.framework */; };
+		8123990E27BBAF720083DE97 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123990D27BBAF720083DE97 /* InsetMapView.swift */; };
+		8123991027BBB58A0083DE97 /* ExternalWebLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123990F27BBB58A0083DE97 /* ExternalWebLink.swift */; };
+		81271E5527BA2B5400BA0D17 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81271E5427BA2B5400BA0D17 /* CoverImageModel.swift */; };
+		81271E5827BA2C7D00BA0D17 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81271E5727BA2C7D00BA0D17 /* CodableBundleExtension.swift */; };
+		8157F23427BC9B66005395EB /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F23327BC9B66005395EB /* VideoViewModel.swift */; };
+		8157F23627BC9D9F005395EB /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F23527BC9D9F005395EB /* VideoPlayerView.swift */; };
+		8157F23827BC9E52005395EB /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F23727BC9E52005395EB /* YoutubeView.swift */; };
+		8157F24227BCC4DB005395EB /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 8157F24127BCC4DA005395EB /* locations.json */; };
+		8157F24427BCC505005395EB /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F24327BCC505005395EB /* LocationModel.swift */; };
+		8157F24827BCD05E005395EB /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F24727BCD05E005395EB /* MapAnnotationView.swift */; };
+		8157F24A27BCD96C005395EB /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F24927BCD96C005395EB /* MotionAnimationView.swift */; };
+		8157F24C27BCDBA4005395EB /* MotionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157F24B27BCDBA4005395EB /* MotionViewModel.swift */; };
+		8180141427BDE94800E1E457 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8180141327BDE94800E1E457 /* AnimalGridItemView.swift */; };
+		8183062627BE376A00329D3D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8183062527BE376900329D3D /* SplashScreen.swift */; };
+		8183063427BE441000329D3D /* GmarketSansTTFBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8183063127BE441000329D3D /* GmarketSansTTFBold.ttf */; };
+		8183063527BE441000329D3D /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8183063227BE441000329D3D /* GmarketSansTTFMedium.ttf */; };
+		8183063627BE441000329D3D /* GmarketSansTTFLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8183063327BE441000329D3D /* GmarketSansTTFLight.ttf */; };
+		8183063827BE443B00329D3D /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8183063727BE443B00329D3D /* CustomFonts.swift */; };
+		819408B027BBABB5004D076D /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819408AF27BBABB4004D076D /* InsetFactView.swift */; };
+		81AB2B2127BC91B300D3A975 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB2B2027BC91B300D3A975 /* VideoModel.swift */; };
+		81AB2B2327BC923300D3A975 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB2B2227BC923300D3A975 /* VideoListItem.swift */; };
+		81AFD01927BA273800405C3A /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AFD01827BA273700405C3A /* CoverImageView.swift */; };
+		81B0452827BDF654004E1C81 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0452727BDF654004E1C81 /* AppInfoView.swift */; };
+		81B0452A27BE098B004E1C81 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0452927BE098B004E1C81 /* CreditsView.swift */; };
+		81B0452D27BE0C03004E1C81 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0452C27BE0C03004E1C81 /* CenterModifier.swift */; };
+		81B0453027BE153A004E1C81 /* SettingLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0452F27BE153A004E1C81 /* SettingLabelView.swift */; };
+		81B0453227BE1A1C004E1C81 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0453127BE1A1C004E1C81 /* SettingsRowView.swift */; };
+		81B1063027C74BCA00CD68EE /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1062F27C74BCA00CD68EE /* BannerAd.swift */; };
+		81C9C22B27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C22A27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift */; };
+		81C9C22D27B9F9CB00F71752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C22C27B9F9CB00F71752 /* ContentView.swift */; };
+		81C9C22F27B9F9CD00F71752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C22E27B9F9CD00F71752 /* Assets.xcassets */; };
+		81C9C23227B9F9CD00F71752 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C23127B9F9CD00F71752 /* Preview Assets.xcassets */; };
+		81C9C23C27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C23B27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift */; };
+		81C9C24627B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C24527B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift */; };
+		81C9C24827B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C24727B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift */; };
+		81C9C25F27BA016100F71752 /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25527BA015E00F71752 /* elephant.mp4 */; };
+		81C9C26027BA016100F71752 /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25627BA015F00F71752 /* lion.mp4 */; };
+		81C9C26127BA016100F71752 /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25727BA015F00F71752 /* gorilla.mp4 */; };
+		81C9C26227BA016100F71752 /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25827BA015F00F71752 /* cheetah.mp4 */; };
+		81C9C26327BA016100F71752 /* giraffe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25927BA016000F71752 /* giraffe.mp4 */; };
+		81C9C26427BA016100F71752 /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25A27BA016000F71752 /* hippo.mp4 */; };
+		81C9C26527BA016100F71752 /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25B27BA016000F71752 /* ostrich.mp4 */; };
+		81C9C26627BA016100F71752 /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25C27BA016000F71752 /* rhino.mp4 */; };
+		81C9C26727BA016100F71752 /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25D27BA016100F71752 /* zebra.mp4 */; };
+		81C9C26827BA016100F71752 /* lioness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C25E27BA016100F71752 /* lioness.mp4 */; };
+		81C9C26F27BA01B500F71752 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C26B27BA01B500F71752 /* covers.json */; };
+		81C9C27027BA01B500F71752 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 81C9C26C27BA01B500F71752 /* videos.json */; };
+		81C9C27527BA049200F71752 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C27427BA049200F71752 /* VideoListView.swift */; };
+		81C9C27727BA04BA00F71752 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C27627BA04BA00F71752 /* MapView.swift */; };
+		81C9C27927BA04D900F71752 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C27827BA04D900F71752 /* GalleryView.swift */; };
+		81C9C27B27BA04F400F71752 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C27A27BA04F400F71752 /* MainView.swift */; };
+		81DC368E27BB7D010012EE6D /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC368D27BB7D010012EE6D /* AnimalListItemView.swift */; };
+		81DC3E6727BB82AA003648DA /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 81DC3E6627BB82AA003648DA /* animals.json */; };
+		81DC3E6927BB82D7003648DA /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC3E6827BB82D7003648DA /* AnimalModel.swift */; };
+		81DC3E6F27BB8A6A003648DA /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC3E6E27BB8A6A003648DA /* AnimalViewModel.swift */; };
+		81DC3E7127BB8CF9003648DA /* CoverImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC3E7027BB8CF9003648DA /* CoverImageViewModel.swift */; };
+		81DC3E7327BB92D7003648DA /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC3E7227BB92D7003648DA /* AnimalDetailView.swift */; };
+		81DC3E7527BB95FB003648DA /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC3E7427BB95FB003648DA /* HeadingView.swift */; };
+		81DC3E7727BB994D003648DA /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC3E7627BB994D003648DA /* InsetGalleryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C9C23827B9F9CD00F71752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C9C21F27B9F9CB00F71752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C9C22627B9F9CB00F71752;
+			remoteInfo = EndangeredAnimalsKR;
+		};
+		81C9C24227B9F9CD00F71752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C9C21F27B9F9CB00F71752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C9C22627B9F9CB00F71752;
+			remoteInfo = EndangeredAnimalsKR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		597159FA81AD1DDC18ADB5D9 /* Pods-EndangeredAnimalsKR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndangeredAnimalsKR.debug.xcconfig"; path = "Target Support Files/Pods-EndangeredAnimalsKR/Pods-EndangeredAnimalsKR.debug.xcconfig"; sourceTree = "<group>"; };
+		7CF7F17A94D431485BDA15E9 /* Pods_EndangeredAnimalsKR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndangeredAnimalsKR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8123990D27BBAF720083DE97 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		8123990F27BBB58A0083DE97 /* ExternalWebLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLink.swift; sourceTree = "<group>"; };
+		81271E5427BA2B5400BA0D17 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		81271E5727BA2C7D00BA0D17 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		8157F23327BC9B66005395EB /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		8157F23527BC9D9F005395EB /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		8157F23727BC9E52005395EB /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
+		8157F24127BCC4DA005395EB /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = Json/locations.json; sourceTree = SOURCE_ROOT; };
+		8157F24327BCC505005395EB /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		8157F24727BCD05E005395EB /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		8157F24927BCD96C005395EB /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		8157F24B27BCDBA4005395EB /* MotionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionViewModel.swift; sourceTree = "<group>"; };
+		8180141327BDE94800E1E457 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		8183062527BE376900329D3D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		8183063127BE441000329D3D /* GmarketSansTTFBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFBold.ttf; sourceTree = "<group>"; };
+		8183063227BE441000329D3D /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
+		8183063327BE441000329D3D /* GmarketSansTTFLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFLight.ttf; sourceTree = "<group>"; };
+		8183063727BE443B00329D3D /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		819408AF27BBABB4004D076D /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		81AB2B2027BC91B300D3A975 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		81AB2B2227BC923300D3A975 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
+		81AFD01827BA273700405C3A /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		81B0452727BDF654004E1C81 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		81B0452927BE098B004E1C81 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		81B0452C27BE0C03004E1C81 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		81B0452F27BE153A004E1C81 /* SettingLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLabelView.swift; sourceTree = "<group>"; };
+		81B0453127BE1A1C004E1C81 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		81B1062F27C74BCA00CD68EE /* BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
+		81C9C22727B9F9CB00F71752 /* 멸종위기동물사전.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "멸종위기동물사전.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C22A27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRApp.swift; sourceTree = "<group>"; };
+		81C9C22C27B9F9CB00F71752 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81C9C22E27B9F9CD00F71752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C9C23127B9F9CD00F71752 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81C9C23727B9F9CD00F71752 /* 멸종위기동물사전Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "멸종위기동물사전Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C23B27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRTests.swift; sourceTree = "<group>"; };
+		81C9C24127B9F9CD00F71752 /* 멸종위기동물사전UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "멸종위기동물사전UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C24527B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRUITests.swift; sourceTree = "<group>"; };
+		81C9C24727B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81C9C25527BA015E00F71752 /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
+		81C9C25627BA015F00F71752 /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
+		81C9C25727BA015F00F71752 /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
+		81C9C25827BA015F00F71752 /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
+		81C9C25927BA016000F71752 /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
+		81C9C25A27BA016000F71752 /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
+		81C9C25B27BA016000F71752 /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
+		81C9C25C27BA016000F71752 /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
+		81C9C25D27BA016100F71752 /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
+		81C9C25E27BA016100F71752 /* lioness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lioness.mp4; sourceTree = "<group>"; };
+		81C9C26B27BA01B500F71752 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		81C9C26C27BA01B500F71752 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		81C9C27227BA028D00F71752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		81C9C27427BA049200F71752 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		81C9C27627BA04BA00F71752 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		81C9C27827BA04D900F71752 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		81C9C27A27BA04F400F71752 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		81DC368D27BB7D010012EE6D /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		81DC3E6627BB82AA003648DA /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		81DC3E6827BB82D7003648DA /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		81DC3E6E27BB8A6A003648DA /* AnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
+		81DC3E7027BB8CF9003648DA /* CoverImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageViewModel.swift; sourceTree = "<group>"; };
+		81DC3E7227BB92D7003648DA /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		81DC3E7427BB95FB003648DA /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		81DC3E7627BB994D003648DA /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		9D27536C3E72BB59846774A2 /* Pods-EndangeredAnimalsKRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndangeredAnimalsKRTests.release.xcconfig"; path = "Target Support Files/Pods-EndangeredAnimalsKRTests/Pods-EndangeredAnimalsKRTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0C0BC5823B15BB4DA650E51 /* Pods_EndangeredAnimalsKRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndangeredAnimalsKRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2ECB949F0CF520CBC123B2 /* Pods-EndangeredAnimalsKRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndangeredAnimalsKRTests.debug.xcconfig"; path = "Target Support Files/Pods-EndangeredAnimalsKRTests/Pods-EndangeredAnimalsKRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF40257224ECEC4389C0D27C /* Pods-EndangeredAnimalsKR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndangeredAnimalsKR.release.xcconfig"; path = "Target Support Files/Pods-EndangeredAnimalsKR/Pods-EndangeredAnimalsKR.release.xcconfig"; sourceTree = "<group>"; };
+		B46000C8F2AFC6F88FEA01B8 /* Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.debug.xcconfig"; path = "Target Support Files/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E095DCE044C2581A309F36B2 /* Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.release.xcconfig"; path = "Target Support Files/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD738B28A23257FD4EA70BEA /* Pods_EndangeredAnimalsKR_EndangeredAnimalsKRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndangeredAnimalsKR_EndangeredAnimalsKRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C9C22427B9F9CB00F71752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606CE4BC3C16A78BC8B2CF9B /* Pods_EndangeredAnimalsKR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23427B9F9CD00F71752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F37F9A33FC7DFD88DC6FCA8 /* Pods_EndangeredAnimalsKRTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23E27B9F9CD00F71752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20635F380AB6FBAB44BEEEF1 /* Pods_EndangeredAnimalsKR_EndangeredAnimalsKRUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBF71F89806811A32F699A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF7F17A94D431485BDA15E9 /* Pods_EndangeredAnimalsKR.framework */,
+				FD738B28A23257FD4EA70BEA /* Pods_EndangeredAnimalsKR_EndangeredAnimalsKRUITests.framework */,
+				A0C0BC5823B15BB4DA650E51 /* Pods_EndangeredAnimalsKRTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		714D8BE1D0F7F7EF794CE022 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				597159FA81AD1DDC18ADB5D9 /* Pods-EndangeredAnimalsKR.debug.xcconfig */,
+				AF40257224ECEC4389C0D27C /* Pods-EndangeredAnimalsKR.release.xcconfig */,
+				B46000C8F2AFC6F88FEA01B8 /* Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.debug.xcconfig */,
+				E095DCE044C2581A309F36B2 /* Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.release.xcconfig */,
+				AF2ECB949F0CF520CBC123B2 /* Pods-EndangeredAnimalsKRTests.debug.xcconfig */,
+				9D27536C3E72BB59846774A2 /* Pods-EndangeredAnimalsKRTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		81271E5327BA2B3B00BA0D17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81271E5427BA2B5400BA0D17 /* CoverImageModel.swift */,
+				81DC3E6827BB82D7003648DA /* AnimalModel.swift */,
+				81AB2B2027BC91B300D3A975 /* VideoModel.swift */,
+				8157F24327BCC505005395EB /* LocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81271E5627BA2C5B00BA0D17 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				81271E5727BA2C7D00BA0D17 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8183063027BE43F900329D3D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8183063127BE441000329D3D /* GmarketSansTTFBold.ttf */,
+				8183063327BE441000329D3D /* GmarketSansTTFLight.ttf */,
+				8183063227BE441000329D3D /* GmarketSansTTFMedium.ttf */,
+				8183063727BE443B00329D3D /* CustomFonts.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		81AFD01727BA272700405C3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81B0452E27BE1522004E1C81 /* Components */,
+				81AFD01827BA273700405C3A /* CoverImageView.swift */,
+				81DC368D27BB7D010012EE6D /* AnimalListItemView.swift */,
+				81DC3E7227BB92D7003648DA /* AnimalDetailView.swift */,
+				8123990F27BBB58A0083DE97 /* ExternalWebLink.swift */,
+				8123990D27BBAF720083DE97 /* InsetMapView.swift */,
+				819408AF27BBABB4004D076D /* InsetFactView.swift */,
+				81DC3E7627BB994D003648DA /* InsetGalleryView.swift */,
+				81DC3E7427BB95FB003648DA /* HeadingView.swift */,
+				81AB2B2227BC923300D3A975 /* VideoListItem.swift */,
+				8157F23527BC9D9F005395EB /* VideoPlayerView.swift */,
+				8157F24727BCD05E005395EB /* MapAnnotationView.swift */,
+				8157F24927BCD96C005395EB /* MotionAnimationView.swift */,
+				8180141327BDE94800E1E457 /* AnimalGridItemView.swift */,
+				81B0452727BDF654004E1C81 /* AppInfoView.swift */,
+				81B0452927BE098B004E1C81 /* CreditsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81B0452B27BE0BE6004E1C81 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				81B0452C27BE0C03004E1C81 /* CenterModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		81B0452E27BE1522004E1C81 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				81B0452F27BE153A004E1C81 /* SettingLabelView.swift */,
+				81B0453127BE1A1C004E1C81 /* SettingsRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		81C9C21E27B9F9CB00F71752 = {
+			isa = PBXGroup;
+			children = (
+				81C9C22927B9F9CB00F71752 /* EndangeredAnimalsKR */,
+				81C9C23A27B9F9CD00F71752 /* EndangeredAnimalsKRTests */,
+				81C9C24427B9F9CD00F71752 /* EndangeredAnimalsKRUITests */,
+				81C9C22827B9F9CB00F71752 /* Products */,
+				714D8BE1D0F7F7EF794CE022 /* Pods */,
+				2FBF71F89806811A32F699A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81C9C22827B9F9CB00F71752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C22727B9F9CB00F71752 /* 멸종위기동물사전.app */,
+				81C9C23727B9F9CD00F71752 /* 멸종위기동물사전Tests.xctest */,
+				81C9C24127B9F9CD00F71752 /* 멸종위기동물사전UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C9C22927B9F9CB00F71752 /* EndangeredAnimalsKR */ = {
+			isa = PBXGroup;
+			children = (
+				8183063027BE43F900329D3D /* Font */,
+				81B0452B27BE0BE6004E1C81 /* Modifier */,
+				81C9C27327BA042F00F71752 /* App */,
+				81271E5327BA2B3B00BA0D17 /* Model */,
+				81DC3E6D27BB8A4F003648DA /* ViewModel */,
+				81AFD01727BA272700405C3A /* View */,
+				81271E5627BA2C5B00BA0D17 /* Extension */,
+				81C9C27227BA028D00F71752 /* Info.plist */,
+				81C9C26927BA019100F71752 /* Data */,
+				81C9C25427BA012B00F71752 /* Video */,
+				81C9C22E27B9F9CD00F71752 /* Assets.xcassets */,
+				81C9C23027B9F9CD00F71752 /* Preview Content */,
+			);
+			path = EndangeredAnimalsKR;
+			sourceTree = "<group>";
+		};
+		81C9C23027B9F9CD00F71752 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C23127B9F9CD00F71752 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81C9C23A27B9F9CD00F71752 /* EndangeredAnimalsKRTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C23B27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift */,
+			);
+			path = EndangeredAnimalsKRTests;
+			sourceTree = "<group>";
+		};
+		81C9C24427B9F9CD00F71752 /* EndangeredAnimalsKRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C24527B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift */,
+				81C9C24727B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift */,
+			);
+			path = EndangeredAnimalsKRUITests;
+			sourceTree = "<group>";
+		};
+		81C9C25427BA012B00F71752 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C25827BA015F00F71752 /* cheetah.mp4 */,
+				81C9C25527BA015E00F71752 /* elephant.mp4 */,
+				81C9C25927BA016000F71752 /* giraffe.mp4 */,
+				81C9C25727BA015F00F71752 /* gorilla.mp4 */,
+				81C9C25A27BA016000F71752 /* hippo.mp4 */,
+				81C9C25627BA015F00F71752 /* lion.mp4 */,
+				81C9C25E27BA016100F71752 /* lioness.mp4 */,
+				81C9C25B27BA016000F71752 /* ostrich.mp4 */,
+				81C9C25C27BA016000F71752 /* rhino.mp4 */,
+				81C9C25D27BA016100F71752 /* zebra.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		81C9C26927BA019100F71752 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8157F24127BCC4DA005395EB /* locations.json */,
+				81DC3E6627BB82AA003648DA /* animals.json */,
+				81C9C26B27BA01B500F71752 /* covers.json */,
+				81C9C26C27BA01B500F71752 /* videos.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		81C9C27327BA042F00F71752 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				81C9C22A27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift */,
+				81C9C22C27B9F9CB00F71752 /* ContentView.swift */,
+				81C9C27427BA049200F71752 /* VideoListView.swift */,
+				81C9C27627BA04BA00F71752 /* MapView.swift */,
+				81C9C27827BA04D900F71752 /* GalleryView.swift */,
+				81C9C27A27BA04F400F71752 /* MainView.swift */,
+				8183062527BE376900329D3D /* SplashScreen.swift */,
+				81B1062F27C74BCA00CD68EE /* BannerAd.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		81DC3E6D27BB8A4F003648DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81DC3E6E27BB8A6A003648DA /* AnimalViewModel.swift */,
+				81DC3E7027BB8CF9003648DA /* CoverImageViewModel.swift */,
+				8157F23327BC9B66005395EB /* VideoViewModel.swift */,
+				8157F23727BC9E52005395EB /* YoutubeView.swift */,
+				8157F24B27BCDBA4005395EB /* MotionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C9C22627B9F9CB00F71752 /* 멸종위기동물사전 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C9C24B27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전" */;
+			buildPhases = (
+				DD6233A4171B4B807CAC06A7 /* [CP] Check Pods Manifest.lock */,
+				81C9C22327B9F9CB00F71752 /* Sources */,
+				81C9C22427B9F9CB00F71752 /* Frameworks */,
+				81C9C22527B9F9CB00F71752 /* Resources */,
+				C8E70CA16E52A3E74D99672F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "멸종위기동물사전";
+			productName = EndangeredAnimalsKR;
+			productReference = 81C9C22727B9F9CB00F71752 /* 멸종위기동물사전.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C9C23627B9F9CD00F71752 /* 멸종위기동물사전Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C9C24E27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전Tests" */;
+			buildPhases = (
+				7D817CF24F9E66FE89274661 /* [CP] Check Pods Manifest.lock */,
+				81C9C23327B9F9CD00F71752 /* Sources */,
+				81C9C23427B9F9CD00F71752 /* Frameworks */,
+				81C9C23527B9F9CD00F71752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C9C23927B9F9CD00F71752 /* PBXTargetDependency */,
+			);
+			name = "멸종위기동물사전Tests";
+			productName = EndangeredAnimalsKRTests;
+			productReference = 81C9C23727B9F9CD00F71752 /* 멸종위기동물사전Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C9C24027B9F9CD00F71752 /* 멸종위기동물사전UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C9C25127B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전UITests" */;
+			buildPhases = (
+				3D752CB1D16FA62D35EAE552 /* [CP] Check Pods Manifest.lock */,
+				81C9C23D27B9F9CD00F71752 /* Sources */,
+				81C9C23E27B9F9CD00F71752 /* Frameworks */,
+				81C9C23F27B9F9CD00F71752 /* Resources */,
+				027DF08C2E8183B332905DF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C9C24327B9F9CD00F71752 /* PBXTargetDependency */,
+			);
+			name = "멸종위기동물사전UITests";
+			productName = EndangeredAnimalsKRUITests;
+			productReference = 81C9C24127B9F9CD00F71752 /* 멸종위기동물사전UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C9C21F27B9F9CB00F71752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					81C9C22627B9F9CB00F71752 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					81C9C23627B9F9CD00F71752 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 81C9C22627B9F9CB00F71752;
+					};
+					81C9C24027B9F9CD00F71752 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 81C9C22627B9F9CB00F71752;
+					};
+				};
+			};
+			buildConfigurationList = 81C9C22227B9F9CB00F71752 /* Build configuration list for PBXProject "멸종위기동물사전" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C9C21E27B9F9CB00F71752;
+			productRefGroup = 81C9C22827B9F9CB00F71752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C9C22627B9F9CB00F71752 /* 멸종위기동물사전 */,
+				81C9C23627B9F9CD00F71752 /* 멸종위기동물사전Tests */,
+				81C9C24027B9F9CD00F71752 /* 멸종위기동물사전UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C9C22527B9F9CB00F71752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C9C26427BA016100F71752 /* hippo.mp4 in Resources */,
+				81C9C23227B9F9CD00F71752 /* Preview Assets.xcassets in Resources */,
+				8157F24227BCC4DB005395EB /* locations.json in Resources */,
+				8183063627BE441000329D3D /* GmarketSansTTFLight.ttf in Resources */,
+				81C9C27027BA01B500F71752 /* videos.json in Resources */,
+				81C9C26027BA016100F71752 /* lion.mp4 in Resources */,
+				8183063527BE441000329D3D /* GmarketSansTTFMedium.ttf in Resources */,
+				81C9C26527BA016100F71752 /* ostrich.mp4 in Resources */,
+				81C9C26227BA016100F71752 /* cheetah.mp4 in Resources */,
+				81C9C26127BA016100F71752 /* gorilla.mp4 in Resources */,
+				81C9C26727BA016100F71752 /* zebra.mp4 in Resources */,
+				81C9C26F27BA01B500F71752 /* covers.json in Resources */,
+				81C9C22F27B9F9CD00F71752 /* Assets.xcassets in Resources */,
+				81C9C26327BA016100F71752 /* giraffe.mp4 in Resources */,
+				81DC3E6727BB82AA003648DA /* animals.json in Resources */,
+				81C9C26627BA016100F71752 /* rhino.mp4 in Resources */,
+				81C9C25F27BA016100F71752 /* elephant.mp4 in Resources */,
+				81C9C26827BA016100F71752 /* lioness.mp4 in Resources */,
+				8183063427BE441000329D3D /* GmarketSansTTFBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23527B9F9CD00F71752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23F27B9F9CD00F71752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		027DF08C2E8183B332905DF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D752CB1D16FA62D35EAE552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D817CF24F9E66FE89274661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EndangeredAnimalsKRTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E70CA16E52A3E74D99672F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EndangeredAnimalsKR/Pods-EndangeredAnimalsKR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EndangeredAnimalsKR/Pods-EndangeredAnimalsKR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EndangeredAnimalsKR/Pods-EndangeredAnimalsKR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6233A4171B4B807CAC06A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EndangeredAnimalsKR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C9C22327B9F9CB00F71752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B0452A27BE098B004E1C81 /* CreditsView.swift in Sources */,
+				81C9C22D27B9F9CB00F71752 /* ContentView.swift in Sources */,
+				81DC3E7527BB95FB003648DA /* HeadingView.swift in Sources */,
+				81DC3E7327BB92D7003648DA /* AnimalDetailView.swift in Sources */,
+				81AB2B2127BC91B300D3A975 /* VideoModel.swift in Sources */,
+				8157F23827BC9E52005395EB /* YoutubeView.swift in Sources */,
+				81DC368E27BB7D010012EE6D /* AnimalListItemView.swift in Sources */,
+				81C9C27B27BA04F400F71752 /* MainView.swift in Sources */,
+				8123990E27BBAF720083DE97 /* InsetMapView.swift in Sources */,
+				81AFD01927BA273800405C3A /* CoverImageView.swift in Sources */,
+				8123991027BBB58A0083DE97 /* ExternalWebLink.swift in Sources */,
+				81271E5527BA2B5400BA0D17 /* CoverImageModel.swift in Sources */,
+				819408B027BBABB5004D076D /* InsetFactView.swift in Sources */,
+				8157F24827BCD05E005395EB /* MapAnnotationView.swift in Sources */,
+				81DC3E6927BB82D7003648DA /* AnimalModel.swift in Sources */,
+				81AB2B2327BC923300D3A975 /* VideoListItem.swift in Sources */,
+				81C9C27727BA04BA00F71752 /* MapView.swift in Sources */,
+				81C9C22B27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift in Sources */,
+				81DC3E6F27BB8A6A003648DA /* AnimalViewModel.swift in Sources */,
+				8157F23427BC9B66005395EB /* VideoViewModel.swift in Sources */,
+				8157F24427BCC505005395EB /* LocationModel.swift in Sources */,
+				8183063827BE443B00329D3D /* CustomFonts.swift in Sources */,
+				81C9C27527BA049200F71752 /* VideoListView.swift in Sources */,
+				81C9C27927BA04D900F71752 /* GalleryView.swift in Sources */,
+				81271E5827BA2C7D00BA0D17 /* CodableBundleExtension.swift in Sources */,
+				81DC3E7127BB8CF9003648DA /* CoverImageViewModel.swift in Sources */,
+				81B0452827BDF654004E1C81 /* AppInfoView.swift in Sources */,
+				8157F24A27BCD96C005395EB /* MotionAnimationView.swift in Sources */,
+				81B1063027C74BCA00CD68EE /* BannerAd.swift in Sources */,
+				81DC3E7727BB994D003648DA /* InsetGalleryView.swift in Sources */,
+				81B0453227BE1A1C004E1C81 /* SettingsRowView.swift in Sources */,
+				8157F24C27BCDBA4005395EB /* MotionViewModel.swift in Sources */,
+				8183062627BE376A00329D3D /* SplashScreen.swift in Sources */,
+				8157F23627BC9D9F005395EB /* VideoPlayerView.swift in Sources */,
+				8180141427BDE94800E1E457 /* AnimalGridItemView.swift in Sources */,
+				81B0452D27BE0C03004E1C81 /* CenterModifier.swift in Sources */,
+				81B0453027BE153A004E1C81 /* SettingLabelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23327B9F9CD00F71752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C9C23C27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C9C23D27B9F9CD00F71752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C9C24827B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift in Sources */,
+				81C9C24627B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C9C23927B9F9CD00F71752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C9C22627B9F9CB00F71752 /* 멸종위기동물사전 */;
+			targetProxy = 81C9C23827B9F9CD00F71752 /* PBXContainerItemProxy */;
+		};
+		81C9C24327B9F9CD00F71752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C9C22627B9F9CB00F71752 /* 멸종위기동물사전 */;
+			targetProxy = 81C9C24227B9F9CD00F71752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81C9C24927B9F9CD00F71752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "멸종위기동물사전";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81C9C24A27B9F9CD00F71752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "멸종위기동물사전";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C9C24C27B9F9CD00F71752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597159FA81AD1DDC18ADB5D9 /* Pods-EndangeredAnimalsKR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"EndangeredAnimalsKR/Preview Content\"";
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EndangeredAnimalsKR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "멸종위기동물사전";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		81C9C24D27B9F9CD00F71752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF40257224ECEC4389C0D27C /* Pods-EndangeredAnimalsKR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"EndangeredAnimalsKR/Preview Content\"";
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EndangeredAnimalsKR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "멸종위기동물사전";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		81C9C24F27B9F9CD00F71752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2ECB949F0CF520CBC123B2 /* Pods-EndangeredAnimalsKRTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/멸종위기동물사전.app/멸종위기동물사전";
+			};
+			name = Debug;
+		};
+		81C9C25027B9F9CD00F71752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D27536C3E72BB59846774A2 /* Pods-EndangeredAnimalsKRTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/멸종위기동물사전.app/멸종위기동물사전";
+			};
+			name = Release;
+		};
+		81C9C25227B9F9CD00F71752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46000C8F2AFC6F88FEA01B8 /* Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EndangeredAnimalsKR;
+			};
+			name = Debug;
+		};
+		81C9C25327B9F9CD00F71752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E095DCE044C2581A309F36B2 /* Pods-EndangeredAnimalsKR-EndangeredAnimalsKRUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63L6X73D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.EndangeredAnimalsKRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EndangeredAnimalsKR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C9C22227B9F9CB00F71752 /* Build configuration list for PBXProject "멸종위기동물사전" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9C24927B9F9CD00F71752 /* Debug */,
+				81C9C24A27B9F9CD00F71752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C9C24B27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9C24C27B9F9CD00F71752 /* Debug */,
+				81C9C24D27B9F9CD00F71752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C9C24E27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9C24F27B9F9CD00F71752 /* Debug */,
+				81C9C25027B9F9CD00F71752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C9C25127B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C9C25227B9F9CD00F71752 /* Debug */,
+				81C9C25327B9F9CD00F71752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C9C21F27B9F9CB00F71752 /* Project object */;
+}

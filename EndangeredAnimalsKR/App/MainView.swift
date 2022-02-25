@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import GoogleMobileAds
 
 struct MainView: View {
+	init() {
+		GADMobileAds.sharedInstance().start(completionHandler: nil)
+	}
 	var body: some View {
 		TabView {
 			ContentView()

@@ -22,18 +22,23 @@ struct ContentView: View {
 							.frame(height: UIScreen.main.bounds.size.height * 0.4)
 							.listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
 						
+						// AD
+						BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
+						
 						ForEach(animalViewModel.animals) { animal in
 							NavigationLink(destination: AnimalDetailView(animal: animal)) {
 								AnimalListItemView(animal: animal)
 									.listRowInsets(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 0))
 							} //: Link
 						} //: LOOP
+						BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
 						CreditsView()
 							.modifier(CenterModifier())
 					} //: LIST
 					// MARK: -  Grid View
 				} else {
 					ScrollView(.vertical, showsIndicators: false) {
+						BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
 						LazyVGrid(columns: animalViewModel.flexGridLayout, alignment: .center, spacing: 10) {
 							ForEach(animalViewModel.animals) { animal in
 								NavigationLink(destination: AnimalDetailView(animal: animal)) {
@@ -43,6 +48,7 @@ struct ContentView: View {
 						} //: GRID
 						.padding(10)
 						.animation(.easeIn)
+						BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
 						CreditsView()
 					} //: SCROLL
 				} //: CONDITION

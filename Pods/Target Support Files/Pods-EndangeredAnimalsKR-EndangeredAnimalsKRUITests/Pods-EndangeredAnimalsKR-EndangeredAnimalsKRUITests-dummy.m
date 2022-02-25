@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_EndangeredAnimalsKR_EndangeredAnimalsKRUITests : NSObject
+@end
+@implementation PodsDummy_Pods_EndangeredAnimalsKR_EndangeredAnimalsKRUITests
+@end

@@ -16,14 +16,16 @@ struct VideoListView: View {
 	var body: some View {
 		NavigationView {
 			List {
+				BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
 				ForEach(videoViewModel.videos) { video in
 					NavigationLink(destination: VideoPlayerView(video: video)) {
 						VideoListItem(video: video)
 							.padding(.vertical, 8)
 					} //: Link
 				} //: LOOP
+				BannerAd(unitID: "ca-app-pub-8787171365157933/2845789069")
 			} //: LIST
-			.listStyle(.insetGrouped)
+			.listStyle(.plain)
 			.navigationBarTitle("비디오", displayMode: .inline)
 			.toolbar {
 				ToolbarItem(placement: .navigationBarTrailing) {
