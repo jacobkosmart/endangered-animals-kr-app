@@ -1,6 +1,6 @@
 # 🦊 멸종위기동물사전
 
-<img height="350" alt="스크린샷" src="">
+<img height="350" alt="스크린샷" src="https://github.com/jacobkosmart/endangered-animals-kr-app/blob/main/MD/endangerAnimalKR.gif">
 
 ## 📌 Main Features
 
