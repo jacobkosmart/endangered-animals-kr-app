@@ -1,10 +1,9 @@
 # 🦊 멸종위기동물사전
 
 <p>
+	<img height="400" alt="스크린샷" src="https://github.com/jacobkosmart/endangered-animals-kr-app/blob/main/MD/endangerAnimalKR.gif">
 
-<img height="400" alt="스크린샷" src="https://github.com/jacobkosmart/endangered-animals-kr-app/blob/main/MD/endangerAnimalKR.gif">
-
-<a href="https://apps.apple.com/us/app/%EB%A9%B8%EC%A2%85%EC%9C%84%EA%B8%B0%EB%8F%99%EB%AC%BC%EC%82%AC%EC%A0%84/id1611508119?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1645747200&h=d77fa095bb27cfb92a8d0e2038784719" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+    <a href="https://apps.apple.com/us/app/%EB%A9%B8%EC%A2%85%EC%9C%84%EA%B8%B0%EB%8F%99%EB%AC%BC%EC%82%AC%EC%A0%84/id1611508119?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1645747200&h=d77fa095bb27cfb92a8d0e2038784719" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
 </p>
 
