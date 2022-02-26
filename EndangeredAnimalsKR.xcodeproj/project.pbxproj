@@ -119,14 +119,14 @@
 		81B0452F27BE153A004E1C81 /* SettingLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLabelView.swift; sourceTree = "<group>"; };
 		81B0453127BE1A1C004E1C81 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		81B1062F27C74BCA00CD68EE /* BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
-		81C9C22727B9F9CB00F71752 /* 멸종위기동물사전.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "멸종위기동물사전.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C22727B9F9CB00F71752 /* EndangeredAnimalsKR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndangeredAnimalsKR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C9C22A27B9F9CB00F71752 /* EndangeredAnimalsKRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRApp.swift; sourceTree = "<group>"; };
 		81C9C22C27B9F9CB00F71752 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81C9C22E27B9F9CD00F71752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81C9C23127B9F9CD00F71752 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		81C9C23727B9F9CD00F71752 /* 멸종위기동물사전Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "멸종위기동물사전Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C23727B9F9CD00F71752 /* EndangeredAnimalsKRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndangeredAnimalsKRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C9C23B27B9F9CD00F71752 /* EndangeredAnimalsKRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRTests.swift; sourceTree = "<group>"; };
-		81C9C24127B9F9CD00F71752 /* 멸종위기동물사전UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "멸종위기동물사전UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9C24127B9F9CD00F71752 /* EndangeredAnimalsKRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndangeredAnimalsKRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C9C24527B9F9CD00F71752 /* EndangeredAnimalsKRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRUITests.swift; sourceTree = "<group>"; };
 		81C9C24727B9F9CD00F71752 /* EndangeredAnimalsKRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndangeredAnimalsKRUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		81C9C25527BA015E00F71752 /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
@@ -261,7 +261,6 @@
 				8157F24727BCD05E005395EB /* MapAnnotationView.swift */,
 				8157F24927BCD96C005395EB /* MotionAnimationView.swift */,
 				8180141327BDE94800E1E457 /* AnimalGridItemView.swift */,
-				81B0452727BDF654004E1C81 /* AppInfoView.swift */,
 				81B0452927BE098B004E1C81 /* CreditsView.swift */,
 			);
 			path = View;
@@ -299,9 +298,9 @@
 		81C9C22827B9F9CB00F71752 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81C9C22727B9F9CB00F71752 /* 멸종위기동물사전.app */,
-				81C9C23727B9F9CD00F71752 /* 멸종위기동물사전Tests.xctest */,
-				81C9C24127B9F9CD00F71752 /* 멸종위기동물사전UITests.xctest */,
+				81C9C22727B9F9CB00F71752 /* EndangeredAnimalsKR.app */,
+				81C9C23727B9F9CD00F71752 /* EndangeredAnimalsKRTests.xctest */,
+				81C9C24127B9F9CD00F71752 /* EndangeredAnimalsKRUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -389,6 +388,7 @@
 				81C9C27A27BA04F400F71752 /* MainView.swift */,
 				8183062527BE376900329D3D /* SplashScreen.swift */,
 				81B1062F27C74BCA00CD68EE /* BannerAd.swift */,
+				81B0452727BDF654004E1C81 /* AppInfoView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -408,9 +408,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81C9C22627B9F9CB00F71752 /* 멸종위기동물사전 */ = {
+		81C9C22627B9F9CB00F71752 /* EndangeredAnimalsKR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81C9C24B27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전" */;
+			buildConfigurationList = 81C9C24B27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKR" */;
 			buildPhases = (
 				DD6233A4171B4B807CAC06A7 /* [CP] Check Pods Manifest.lock */,
 				81C9C22327B9F9CB00F71752 /* Sources */,
@@ -422,14 +422,14 @@
 			);
 			dependencies = (
 			);
-			name = "멸종위기동물사전";
+			name = EndangeredAnimalsKR;
 			productName = EndangeredAnimalsKR;
-			productReference = 81C9C22727B9F9CB00F71752 /* 멸종위기동물사전.app */;
+			productReference = 81C9C22727B9F9CB00F71752 /* EndangeredAnimalsKR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		81C9C23627B9F9CD00F71752 /* 멸종위기동물사전Tests */ = {
+		81C9C23627B9F9CD00F71752 /* EndangeredAnimalsKRTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81C9C24E27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전Tests" */;
+			buildConfigurationList = 81C9C24E27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKRTests" */;
 			buildPhases = (
 				7D817CF24F9E66FE89274661 /* [CP] Check Pods Manifest.lock */,
 				81C9C23327B9F9CD00F71752 /* Sources */,
@@ -441,14 +441,14 @@
 			dependencies = (
 				81C9C23927B9F9CD00F71752 /* PBXTargetDependency */,
 			);
-			name = "멸종위기동물사전Tests";
+			name = EndangeredAnimalsKRTests;
 			productName = EndangeredAnimalsKRTests;
-			productReference = 81C9C23727B9F9CD00F71752 /* 멸종위기동물사전Tests.xctest */;
+			productReference = 81C9C23727B9F9CD00F71752 /* EndangeredAnimalsKRTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		81C9C24027B9F9CD00F71752 /* 멸종위기동물사전UITests */ = {
+		81C9C24027B9F9CD00F71752 /* EndangeredAnimalsKRUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81C9C25127B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전UITests" */;
+			buildConfigurationList = 81C9C25127B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKRUITests" */;
 			buildPhases = (
 				3D752CB1D16FA62D35EAE552 /* [CP] Check Pods Manifest.lock */,
 				81C9C23D27B9F9CD00F71752 /* Sources */,
@@ -461,9 +461,9 @@
 			dependencies = (
 				81C9C24327B9F9CD00F71752 /* PBXTargetDependency */,
 			);
-			name = "멸종위기동물사전UITests";
+			name = EndangeredAnimalsKRUITests;
 			productName = EndangeredAnimalsKRUITests;
-			productReference = 81C9C24127B9F9CD00F71752 /* 멸종위기동물사전UITests.xctest */;
+			productReference = 81C9C24127B9F9CD00F71752 /* EndangeredAnimalsKRUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -489,7 +489,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81C9C22227B9F9CB00F71752 /* Build configuration list for PBXProject "멸종위기동물사전" */;
+			buildConfigurationList = 81C9C22227B9F9CB00F71752 /* Build configuration list for PBXProject "EndangeredAnimalsKR" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -502,9 +502,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81C9C22627B9F9CB00F71752 /* 멸종위기동물사전 */,
-				81C9C23627B9F9CD00F71752 /* 멸종위기동물사전Tests */,
-				81C9C24027B9F9CD00F71752 /* 멸종위기동물사전UITests */,
+				81C9C22627B9F9CB00F71752 /* EndangeredAnimalsKR */,
+				81C9C23627B9F9CD00F71752 /* EndangeredAnimalsKRTests */,
+				81C9C24027B9F9CD00F71752 /* EndangeredAnimalsKRUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -722,12 +722,12 @@
 /* Begin PBXTargetDependency section */
 		81C9C23927B9F9CD00F71752 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81C9C22627B9F9CB00F71752 /* 멸종위기동물사전 */;
+			target = 81C9C22627B9F9CB00F71752 /* EndangeredAnimalsKR */;
 			targetProxy = 81C9C23827B9F9CD00F71752 /* PBXContainerItemProxy */;
 		};
 		81C9C24327B9F9CD00F71752 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81C9C22627B9F9CB00F71752 /* 멸종위기동물사전 */;
+			target = 81C9C22627B9F9CB00F71752 /* EndangeredAnimalsKR */;
 			targetProxy = 81C9C24227B9F9CD00F71752 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -934,7 +934,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/멸종위기동물사전.app/멸종위기동물사전";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EndangeredAnimalsKR.app/EndangeredAnimalsKR";
 			};
 			name = Debug;
 		};
@@ -955,7 +955,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/멸종위기동물사전.app/멸종위기동물사전";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EndangeredAnimalsKR.app/EndangeredAnimalsKR";
 			};
 			name = Release;
 		};
@@ -1000,7 +1000,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81C9C22227B9F9CB00F71752 /* Build configuration list for PBXProject "멸종위기동물사전" */ = {
+		81C9C22227B9F9CB00F71752 /* Build configuration list for PBXProject "EndangeredAnimalsKR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C9C24927B9F9CD00F71752 /* Debug */,
@@ -1009,7 +1009,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81C9C24B27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전" */ = {
+		81C9C24B27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C9C24C27B9F9CD00F71752 /* Debug */,
@@ -1018,7 +1018,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81C9C24E27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전Tests" */ = {
+		81C9C24E27B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKRTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C9C24F27B9F9CD00F71752 /* Debug */,
@@ -1027,7 +1027,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81C9C25127B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "멸종위기동물사전UITests" */ = {
+		81C9C25127B9F9CD00F71752 /* Build configuration list for PBXNativeTarget "EndangeredAnimalsKRUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C9C25227B9F9CD00F71752 /* Debug */,
